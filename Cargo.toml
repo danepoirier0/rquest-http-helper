@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rquest = { version="0.20.85", features=["boring-tls", "cookies", "brotli"] }
+serde_json = "1.0.128"
+tokio = { version="1.40.0", features=["full"] }
+urlencoding = "2.1.3"
+serde = { version = "1.0", features = ["derive"] }
